@@ -1,3 +1,4 @@
+/*
 import {Component, OnInit, ViewChild, ElementRef, HostListener, OnDestroy} from '@angular/core';
 import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
@@ -102,3 +103,16 @@ export class SignInComponent implements OnInit, OnDestroy {
     });
   }
 }
+*/
+import React from 'react';
+
+const SignIn: React.FC = () => {
+  return (
+    <div>
+      <h2>Sign In</h2>
+      {/* Sign In form 구현 */}
+    </div>
+  );
+}
+
+export default SignIn;
